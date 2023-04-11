@@ -156,3 +156,5 @@ docs/_build/
 
 # Ignore Gradle build output directory
 build
+
+.scalafix.conf

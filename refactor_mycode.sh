@@ -57,7 +57,6 @@ cp .scalafix-warn.conf.sample .scalafix.conf
 
 sbt scalafix ||     (echo "Linter warnings were found"; prompt)
 
-rm .scalafix.conf
 
 echo "ScalaFix is done, you should probably review the changes (e.g. git diff)"
 
